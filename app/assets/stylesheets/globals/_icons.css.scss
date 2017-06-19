@@ -1,0 +1,47 @@
+/*
+Icon Font: fontcustom
+*/
+
+@font-face {
+  font-family: "fontcustom";
+  src: font-url("fontcustom.eot");
+  src: font-url("fontcustom.eot?#iefix") format("embedded-opentype"),
+  font-url("fontcustom.woff") format("woff"),
+  font-url("fontcustom.ttf") format("truetype"),
+  font-url("fontcustom.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fontcustom";
+    src: font-url("fontcustom.svg#fontcustom") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-help-with-circle:before,
+.icon-menu:before,
+.icon-share:before,
+.icon-user:before {
+  display: inline-block;
+  font-family: "fontcustom";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-help-with-circle:before { content: "\f100"; }
+.icon-menu:before { content: "\f101"; }
+.icon-share:before { content: "\f102"; }
+.icon-user:before { content: "\f103"; }

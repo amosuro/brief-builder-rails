@@ -1,0 +1,10 @@
+<%= simple_form_for @brief do |f| %>
+
+<%= render partial: 'form_general', locals: { f: f } %>
+<%= render partial: 'form_content', locals: { f: f } %>
+<%= render partial: 'form_visual', locals: { f: f } %>
+<%= render partial: 'form_functionality', locals: { f: f } %>
+<%= render partial: 'form_timescale', locals: { f: f } %>
+
+<%= f.button :submit %>
+<% end %>

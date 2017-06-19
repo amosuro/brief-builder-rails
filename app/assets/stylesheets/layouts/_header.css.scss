@@ -1,0 +1,20 @@
+.top-bar {
+  .icon-menu {
+    font-size: 1.6rem;
+  }
+
+  .toggle-topbar {
+    left: 0;
+    right: auto;
+  }
+
+  .top-bar-section ul li,
+  .toggle-topbar {
+    border-right: 1px solid #000;
+  }
+
+  .top-bar-section ul li a,
+  .toggle-topbar a {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}

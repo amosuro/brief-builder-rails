@@ -1,0 +1,12 @@
+<%= f.input :name %>
+<%= f.input :client_type %>
+<%= f.simple_fields_for :offering do |offering| %>
+  <%= offering.input :title %>
+  <%= offering.input :title %>
+<% end %>
+<%= f.input :target_audience %>
+<%= f.input :website_url %>
+<%= f.input :desired_url %>
+<%= f.input :hosting %>
+<%= f.input :frustrations %>
+<%= f.input :goals %>
